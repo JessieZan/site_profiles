@@ -1,0 +1,36 @@
+
+.hero-section__img {
+    max-width: 1110px;
+    max-height: 500px;
+}
+
+.portfolio-section__tec {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #5FB4A2;
+}
+
+.about-project-section{
+    width: 635px;
+}
+
+.about-project-section__img {
+    max-width: 635px;
+}
+
+.nav-portfolio {
+    max-width: 1110px;
+    border-top: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+}
+
+.nav-portfolio__span {
+    opacity: 0.5;
+}
+
+.nav-portfolio__link  {
+    text-decoration: none;
+}

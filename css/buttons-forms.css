@@ -1,0 +1,130 @@
+/*----------BUTTONS----------*/
+
+.btn-primary {
+
+    position: absolute;
+
+    width: 200px;
+    height: 48px;
+
+    background: #203A4C;
+
+    font-family: 'Public Sans', sans-serif;
+
+    font-weight: 100;
+    font-size: 12px;
+
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.btn-primary:hover{
+    background: url(../../desafio-frontend-modulo1-integral/assets/icons/down-arrows.hover.svg) no-repeat left #5FB4A2;
+    background-position: 15px;
+    
+}
+
+.btn-primary__img {
+    background: #000000;
+    
+    opacity: 0.3;
+
+    width: 48px;
+    height: 48px;
+}
+
+.btn-sec1 {
+    font-family: 'Public Sans', sans-serif;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration: none;
+
+    letter-spacing: 2px;
+
+    color: #33323D;
+}
+
+.btn-sec1:hover {
+    background: #33323D;
+    color: #FAFAFA;
+}
+
+.btn-sec2 {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    background: #203A4C;
+    padding: 15px 60px 15px 60px;
+}
+
+.btn-sec2:hover {
+    background: #5FB4A2;
+}
+
+/*----------FORMS----------*/
+
+.text-area {
+    all: unset;
+    background: #ececec;
+}
+
+.text-area:focus {
+    all: unset;
+    background: #ececec;
+
+    border: 2px solid #000000;
+}
+
+.input {
+    all: unset;
+
+    height: 50px;
+    background: #ececec;
+}
+
+.input:focus{
+    all: unset;
+    background: #ececec;
+
+    height: 50px;
+    border: 2px solid #000000;
+}
+
+/*-----------------COLORS---------------*/
+
+.slightly-desaturated-cyan {
+    color: #5FB4A2;
+}
+
+.dark-blue {
+    color: #203A4C;
+}
+
+.grayish-dark-blue {
+    color:  #33323D;
+}
+
+.very-light-gray {
+    color: #FAFAFA;
+}
+
+.light-gray {
+    color: #EAEAEB;
+}
